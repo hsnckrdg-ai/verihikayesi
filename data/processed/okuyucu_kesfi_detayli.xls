@@ -1,0 +1,644 @@
+work_year,job_title,experience_level,salary_in_usd
+2020,AI Scientist,Junior,45896.0
+2020,Azure Data Engineer,Junior,100000.0
+2020,BI Data Analyst,Mid-level,98000.0
+2020,Big Data Engineer,Junior,70000.0
+2020,Big Data Engineer,Senior,111536.0
+2020,Business Data Analyst,Junior,100000.0
+2020,Business Data Analyst,Mid-level,115000.0
+2020,Computer Vision Engineer,Senior,60000.0
+2020,Data Analyst,Junior,58427.0
+2020,Data Analyst,Mid-level,65880.0
+2020,Data Engineer,Executive,79833.0
+2020,Data Engineer,Junior,48216.0
+2020,Data Engineer,Mid-level,94749.0
+2020,Data Engineer,Senior,89803.0
+2020,Data Science Consultant,Mid-level,103000.0
+2020,Data Science Manager,Senior,190200.0
+2020,Data Scientist,Junior,54983.0
+2020,Data Scientist,Mid-level,71256.0
+2020,Data Scientist,Senior,93222.0
+2020,Lead Data Analyst,Mid-level,87000.0
+2020,Lead Data Engineer,Mid-level,56000.0
+2020,Lead Data Engineer,Senior,125000.0
+2020,Lead Data Scientist,Mid-level,115000.0
+2020,Lead Data Scientist,Senior,190000.0
+2020,ML Engineer,Junior,15966.0
+2020,Machine Learning Engineer,Junior,194000.0
+2020,Machine Learning Engineer,Senior,97809.0
+2020,Machine Learning Infrastructure Engineer,Mid-level,50180.0
+2020,Machine Learning Manager,Senior,117104.0
+2020,Machine Learning Scientist,Senior,260000.0
+2020,Managing Director Data Science,Executive,300000.0
+2020,Principal Data Scientist,Senior,148261.0
+2020,Product Data Analyst,Mid-level,20000.0
+2020,Research Scientist,Junior,42000.0
+2020,Sales Data Analyst,Mid-level,60000.0
+2020,Staff Data Analyst,Executive,15000.0
+2020,Staff Data Analyst,Junior,44753.0
+2020,Staff Data Scientist,Senior,164000.0
+2021,AI Scientist,Junior,18053.0
+2021,AI Scientist,Mid-level,30000.0
+2021,AI Scientist,Senior,55000.0
+2021,Applied Data Scientist,Junior,110037.0
+2021,Applied Data Scientist,Mid-level,54238.0
+2021,Applied Machine Learning Scientist,Mid-level,38400.0
+2021,Autonomous Vehicle Technician,Mid-level,45555.0
+2021,BI Data Analyst,Executive,150000.0
+2021,BI Data Analyst,Junior,55000.0
+2021,BI Data Analyst,Mid-level,68130.0
+2021,Big Data Architect,Senior,99703.0
+2021,Big Data Engineer,Junior,16228.0
+2021,Big Data Engineer,Mid-level,33537.0
+2021,Business Data Analyst,Junior,59102.0
+2021,Business Data Analyst,Mid-level,56000.0
+2021,Cloud Data Architect,Senior,250000.0
+2021,Cloud Data Engineer,Mid-level,89294.0
+2021,Cloud Data Engineer,Senior,160000.0
+2021,Computer Vision Engineer,Junior,28609.0
+2021,Computer Vision Engineer,Senior,21454.0
+2021,Computer Vision Software Engineer,Junior,44536.0
+2021,Computer Vision Software Engineer,Mid-level,95746.0
+2021,Data Analyst,Junior,63522.0
+2021,Data Analyst,Mid-level,75428.0
+2021,Data Analyst,Senior,96770.0
+2021,Data Analytics Engineer,Mid-level,110000.0
+2021,Data Analytics Engineer,Senior,64598.0
+2021,Data Analytics Manager,Senior,126667.0
+2021,Data Architect,Mid-level,166667.0
+2021,Data Engineer,Junior,52495.0
+2021,Data Engineer,Mid-level,78881.0
+2021,Data Engineer,Senior,139359.0
+2021,Data Science Consultant,Executive,69741.0
+2021,Data Science Consultant,Junior,76874.0
+2021,Data Science Engineer,Mid-level,40189.0
+2021,Data Science Engineer,Senior,127221.0
+2021,Data Science Lead,Mid-level,150000.0
+2021,Data Science Manager,Senior,143126.0
+2021,Data Scientist,Junior,63604.0
+2021,Data Scientist,Mid-level,83012.0
+2021,Data Scientist,Senior,87071.0
+2021,Data Specialist,Senior,165000.0
+2021,Director of Data Science,Executive,168885.0
+2021,Director of Data Science,Senior,168000.0
+2021,Finance Data Analyst,Senior,61896.0
+2021,Head of Data,Executive,232500.0
+2021,Head of Data,Senior,102839.0
+2021,Head of Data Science,Executive,85000.0
+2021,Head of Data Science,Mid-level,110000.0
+2021,Lead Data Analyst,Mid-level,19609.0
+2021,Lead Data Analyst,Senior,170000.0
+2021,Lead Data Engineer,Senior,179720.0
+2021,Lead Data Scientist,Senior,40570.0
+2021,ML Engineer,Mid-level,137025.0
+2021,ML Engineer,Senior,256000.0
+2021,Machine Learning Developer,Junior,57500.0
+2021,Machine Learning Developer,Senior,60000.0
+2021,Machine Learning Engineer,Junior,59611.0
+2021,Machine Learning Engineer,Mid-level,55403.0
+2021,Machine Learning Engineer,Senior,108819.0
+2021,Machine Learning Infrastructure Engineer,Senior,195000.0
+2021,Machine Learning Research Engineer,Junior,20000.0
+2021,Machine Learning Scientist,Junior,225000.0
+2021,Machine Learning Scientist,Senior,172500.0
+2021,Marketing Data Analyst,Senior,88654.0
+2021,Marketing Data Engineer,Junior,66970.0
+2021,Principal Data Analyst,Senior,170000.0
+2021,Principal Data Engineer,Senior,192500.0
+2021,Principal Data Scientist,Mid-level,151000.0
+2021,Principal Data Scientist,Senior,209587.0
+2021,Research Scientist,Junior,91264.0
+2021,Research Scientist,Mid-level,88128.0
+2021,Research Scientist,Senior,68957.0
+2021,Staff Data Scientist,Senior,105000.0
+2021,Staff Machine Learning Engineer,Senior,185000.0
+2022,AI Developer,Senior,275000.0
+2022,AI Programmer,Junior,40000.0
+2022,AI Research Engineer,Junior,36940.0
+2022,AI Scientist,Executive,200000.0
+2022,AI Scientist,Junior,93840.0
+2022,AI Scientist,Mid-level,173333.0
+2022,AI Scientist,Senior,125000.0
+2022,Admin & Data Analyst,Senior,60000.0
+2022,Analytics Engineer,Executive,171167.0
+2022,Analytics Engineer,Junior,130000.0
+2022,Analytics Engineer,Mid-level,97404.0
+2022,Analytics Engineer,Senior,144773.0
+2022,Applied Data Scientist,Junior,45000.0
+2022,Applied Data Scientist,Mid-level,157000.0
+2022,Applied Data Scientist,Senior,177000.0
+2022,Applied Machine Learning Scientist,Junior,30469.0
+2022,Applied Machine Learning Scientist,Mid-level,94059.0
+2022,Applied Machine Learning Scientist,Senior,111706.0
+2022,Applied Scientist,Senior,181964.0
+2022,BI Analyst,Junior,76000.0
+2022,BI Analyst,Mid-level,63000.0
+2022,BI Analyst,Senior,200000.0
+2022,BI Data Analyst,Junior,58969.0
+2022,BI Data Analyst,Mid-level,63479.0
+2022,BI Developer,Senior,130000.0
+2022,Big Data Engineer,Senior,161311.0
+2022,Business Data Analyst,Junior,49000.0
+2022,Business Data Analyst,Mid-level,63813.0
+2022,Business Data Analyst,Senior,100000.0
+2022,Business Intelligence Developer,Mid-level,15000.0
+2022,Cloud Database Engineer,Senior,175000.0
+2022,Computer Vision Engineer,Junior,125000.0
+2022,Computer Vision Engineer,Mid-level,37367.0
+2022,Computer Vision Software Engineer,Junior,150000.0
+2022,Data Analyst,Executive,120000.0
+2022,Data Analyst,Junior,55332.0
+2022,Data Analyst,Mid-level,93175.0
+2022,Data Analyst,Senior,115871.0
+2022,Data Analytics Consultant,Junior,50000.0
+2022,Data Analytics Consultant,Mid-level,113000.0
+2022,Data Analytics Engineer,Junior,20000.0
+2022,Data Analytics Engineer,Mid-level,135000.0
+2022,Data Analytics Manager,Mid-level,147500.0
+2022,Data Analytics Manager,Senior,128588.0
+2022,Data Architect,Senior,163950.0
+2022,Data Engineer,Executive,219345.0
+2022,Data Engineer,Junior,85306.0
+2022,Data Engineer,Mid-level,101488.0
+2022,Data Engineer,Senior,149465.0
+2022,Data Management Specialist,Senior,68293.0
+2022,Data Manager,Executive,125976.0
+2022,Data Manager,Junior,61450.0
+2022,Data Manager,Mid-level,116000.0
+2022,Data Operations Analyst,Senior,90562.0
+2022,Data Operations Engineer,Mid-level,80000.0
+2022,Data Operations Engineer,Senior,87500.0
+2022,Data Science Consultant,Junior,25741.0
+2022,Data Science Consultant,Mid-level,60951.0
+2022,Data Science Consultant,Senior,125700.0
+2022,Data Science Engineer,Senior,60000.0
+2022,Data Science Lead,Senior,165000.0
+2022,Data Science Manager,Executive,189280.0
+2022,Data Science Manager,Mid-level,173000.0
+2022,Data Science Manager,Senior,195353.0
+2022,Data Scientist,Executive,144500.0
+2022,Data Scientist,Junior,76922.0
+2022,Data Scientist,Mid-level,98101.0
+2022,Data Scientist,Senior,153277.0
+2022,Data Scientist Lead,Mid-level,89306.0
+2022,Data Scientist Lead,Senior,183000.0
+2022,Data Specialist,Junior,105000.0
+2022,Data Specialist,Mid-level,150000.0
+2022,Data Specialist,Senior,119167.0
+2022,Deep Learning Engineer,Mid-level,67723.0
+2022,Director of Data Science,Executive,192037.0
+2022,Director of Data Science,Senior,57786.0
+2022,ETL Developer,Mid-level,52533.0
+2022,ETL Developer,Senior,149412.0
+2022,Financial Data Analyst,Junior,100000.0
+2022,Financial Data Analyst,Mid-level,75000.0
+2022,Head of Data,Executive,182500.0
+2022,Head of Data,Mid-level,31520.0
+2022,Head of Data,Senior,200000.0
+2022,Head of Data Science,Executive,195938.0
+2022,Head of Machine Learning,Executive,76309.0
+2022,Lead Data Engineer,Executive,115222.0
+2022,Lead Data Scientist,Mid-level,61566.0
+2022,Lead Data Scientist,Senior,121569.0
+2022,Lead Machine Learning Engineer,Senior,82928.0
+2022,ML Engineer,Junior,21013.0
+2022,ML Engineer,Mid-level,131675.0
+2022,ML Engineer,Senior,178670.0
+2022,MLOps Engineer,Mid-level,129000.0
+2022,Machine Learning Developer,Junior,84333.0
+2022,Machine Learning Developer,Mid-level,76814.0
+2022,Machine Learning Developer,Senior,76814.0
+2022,Machine Learning Engineer,Junior,91304.0
+2022,Machine Learning Engineer,Mid-level,116180.0
+2022,Machine Learning Engineer,Senior,158184.0
+2022,Machine Learning Infrastructure Engineer,Mid-level,55685.0
+2022,Machine Learning Infrastructure Engineer,Senior,167400.0
+2022,Machine Learning Manager,Senior,175000.0
+2022,Machine Learning Research Engineer,Junior,66192.0
+2022,Machine Learning Researcher,Mid-level,121309.0
+2022,Machine Learning Scientist,Executive,190000.0
+2022,Machine Learning Scientist,Junior,57336.0
+2022,Machine Learning Scientist,Mid-level,124683.0
+2022,Machine Learning Scientist,Senior,170800.0
+2022,Machine Learning Software Engineer,Senior,206800.0
+2022,Manager Data Management,Senior,125000.0
+2022,Marketing Data Analyst,Senior,200000.0
+2022,NLP Engineer,Mid-level,52182.0
+2022,Principal Data Analyst,Mid-level,75000.0
+2022,Principal Data Architect,Senior,38154.0
+2022,Principal Data Scientist,Senior,155499.0
+2022,Principal Machine Learning Engineer,Senior,190000.0
+2022,Product Data Analyst,Junior,100000.0
+2022,Product Data Analyst,Mid-level,140000.0
+2022,Research Engineer,Junior,29132.0
+2022,Research Engineer,Mid-level,172533.0
+2022,Research Engineer,Senior,199838.0
+2022,Research Scientist,Executive,84053.0
+2022,Research Scientist,Junior,120000.0
+2022,Research Scientist,Mid-level,88024.0
+2022,Research Scientist,Senior,186082.0
+2023,AI Architect,Executive,215936.0
+2023,AI Architect,Senior,214000.0
+2023,AI Developer,Junior,110120.0
+2023,AI Developer,Mid-level,138294.0
+2023,AI Developer,Senior,148742.0
+2023,AI Engineer,Junior,28296.0
+2023,AI Engineer,Mid-level,140353.0
+2023,AI Engineer,Senior,153982.0
+2023,AI Product Manager,Senior,120000.0
+2023,AI Programmer,Junior,61074.0
+2023,AI Programmer,Senior,120000.0
+2023,AI Research Engineer,Junior,24631.0
+2023,AI Research Engineer,Mid-level,115603.0
+2023,AI Scientist,Junior,20000.0
+2023,AI Scientist,Mid-level,73676.0
+2023,AI Scientist,Senior,133945.0
+2023,AWS Data Architect,Mid-level,258000.0
+2023,Admin & Data Analyst,Junior,50000.0
+2023,Analytics Engineer,Executive,200667.0
+2023,Analytics Engineer,Junior,88370.0
+2023,Analytics Engineer,Mid-level,130984.0
+2023,Analytics Engineer,Senior,159533.0
+2023,Applied Data Scientist,Junior,29691.0
+2023,Applied Data Scientist,Mid-level,50336.0
+2023,Applied Data Scientist,Senior,66208.0
+2023,Applied Machine Learning Engineer,Executive,225000.0
+2023,Applied Machine Learning Engineer,Mid-level,100090.0
+2023,Applied Machine Learning Scientist,Junior,45916.0
+2023,Applied Machine Learning Scientist,Senior,90000.0
+2023,Applied Scientist,Junior,180420.0
+2023,Applied Scientist,Mid-level,164099.0
+2023,Applied Scientist,Senior,192213.0
+2023,Autonomous Vehicle Technician,Mid-level,120000.0
+2023,Azure Data Engineer,Senior,100000.0
+2023,BI Analyst,Mid-level,133680.0
+2023,BI Analyst,Senior,126621.0
+2023,BI Data Analyst,Junior,55000.0
+2023,BI Data Analyst,Mid-level,70000.0
+2023,BI Data Analyst,Senior,72338.0
+2023,BI Data Engineer,Junior,60000.0
+2023,BI Developer,Junior,100650.0
+2023,BI Developer,Mid-level,95191.0
+2023,BI Developer,Senior,114571.0
+2023,Big Data Architect,Senior,153799.0
+2023,Big Data Engineer,Junior,130000.0
+2023,Big Data Engineer,Mid-level,48585.0
+2023,Business Data Analyst,Junior,21593.0
+2023,Business Data Analyst,Mid-level,48250.0
+2023,Business Data Analyst,Senior,107994.0
+2023,Business Intelligence Analyst,Junior,76763.0
+2023,Business Intelligence Analyst,Mid-level,109582.0
+2023,Business Intelligence Analyst,Senior,132595.0
+2023,Business Intelligence Data Analyst,Junior,99000.0
+2023,Business Intelligence Data Analyst,Mid-level,67419.0
+2023,Business Intelligence Developer,Executive,137000.0
+2023,Business Intelligence Developer,Mid-level,84032.0
+2023,Business Intelligence Developer,Senior,108703.0
+2023,Business Intelligence Engineer,Executive,209850.0
+2023,Business Intelligence Engineer,Mid-level,94783.0
+2023,Business Intelligence Engineer,Senior,149212.0
+2023,Business Intelligence Manager,Mid-level,126750.0
+2023,Business Intelligence Specialist,Mid-level,88756.0
+2023,Business Intelligence Specialist,Senior,199550.0
+2023,Cloud Data Engineer,Junior,138588.0
+2023,Cloud Database Engineer,Senior,141667.0
+2023,Compliance Data Analyst,Junior,45000.0
+2023,Computer Vision Engineer,Junior,155000.0
+2023,Computer Vision Engineer,Mid-level,101508.0
+2023,Computer Vision Engineer,Senior,205738.0
+2023,Computer Vision Software Engineer,Senior,53984.0
+2023,Consultant Data Engineer,Senior,118539.0
+2023,Data Analyst,Executive,113125.0
+2023,Data Analyst,Junior,78434.0
+2023,Data Analyst,Mid-level,94016.0
+2023,Data Analyst,Senior,123499.0
+2023,Data Analyst Lead,Junior,18000.0
+2023,Data Analytics Lead,Mid-level,81712.0
+2023,Data Analytics Lead,Senior,99960.0
+2023,Data Analytics Manager,Executive,147500.0
+2023,Data Analytics Manager,Mid-level,136024.0
+2023,Data Analytics Manager,Senior,167975.0
+2023,Data Analytics Specialist,Senior,95000.0
+2023,Data Architect,Executive,167500.0
+2023,Data Architect,Mid-level,128470.0
+2023,Data Architect,Senior,161706.0
+2023,Data DevOps Engineer,Junior,47918.0
+2023,Data DevOps Engineer,Mid-level,95012.0
+2023,Data DevOps Engineer,Senior,53984.0
+2023,Data Developer,Mid-level,97872.0
+2023,Data Developer,Senior,115100.0
+2023,Data Engineer,Executive,180139.0
+2023,Data Engineer,Junior,85718.0
+2023,Data Engineer,Mid-level,121379.0
+2023,Data Engineer,Senior,156407.0
+2023,Data Infrastructure Engineer,Mid-level,180828.0
+2023,Data Infrastructure Engineer,Senior,186885.0
+2023,Data Integration Engineer,Senior,127750.0
+2023,Data Integration Specialist,Junior,102807.0
+2023,Data Integration Specialist,Senior,36483.0
+2023,Data Lead,Executive,220500.0
+2023,Data Lead,Mid-level,122500.0
+2023,Data Lead,Senior,146143.0
+2023,Data Management Analyst,Junior,70500.0
+2023,Data Management Specialist,Senior,116523.0
+2023,Data Manager,Executive,89500.0
+2023,Data Manager,Junior,117700.0
+2023,Data Manager,Mid-level,104395.0
+2023,Data Manager,Senior,120807.0
+2023,Data Modeler,Mid-level,105867.0
+2023,Data Modeler,Senior,146669.0
+2023,Data Modeller,Mid-level,83052.0
+2023,Data Operations Analyst,Mid-level,54870.0
+2023,Data Operations Analyst,Senior,114250.0
+2023,Data Operations Engineer,Senior,184988.0
+2023,Data Operations Manager,Senior,136000.0
+2023,Data Operations Specialist,Mid-level,57500.0
+2023,Data Operations Specialist,Senior,53210.0
+2023,Data Product Manager,Mid-level,173500.0
+2023,Data Product Manager,Senior,162062.0
+2023,Data Product Owner,Mid-level,80116.0
+2023,Data Quality Analyst,Junior,43064.0
+2023,Data Quality Analyst,Mid-level,72500.0
+2023,Data Quality Analyst,Senior,100772.0
+2023,Data Quality Engineer,Junior,23753.0
+2023,Data Quality Engineer,Senior,131500.0
+2023,Data Quality Manager,Mid-level,59059.0
+2023,Data Science,Executive,193000.0
+2023,Data Science,Mid-level,169900.0
+2023,Data Science,Senior,143003.0
+2023,Data Science Consultant,Mid-level,67135.0
+2023,Data Science Consultant,Senior,126741.0
+2023,Data Science Director,Executive,201000.0
+2023,Data Science Engineer,Junior,104024.0
+2023,Data Science Engineer,Mid-level,121500.0
+2023,Data Science Engineer,Senior,166415.0
+2023,Data Science Lead,Mid-level,159834.0
+2023,Data Science Lead,Senior,182370.0
+2023,Data Science Manager,Executive,206250.0
+2023,Data Science Manager,Mid-level,149268.0
+2023,Data Science Manager,Senior,173132.0
+2023,Data Science Practitioner,Senior,144883.0
+2023,Data Scientist,Executive,191114.0
+2023,Data Scientist,Junior,92765.0
+2023,Data Scientist,Mid-level,122700.0
+2023,Data Scientist,Senior,173441.0
+2023,Data Specialist,Mid-level,89926.0
+2023,Data Specialist,Senior,95210.0
+2023,Data Strategist,Mid-level,84750.0
+2023,Data Strategist,Senior,116474.0
+2023,Data Strategy Manager,Senior,138750.0
+2023,Data Visualization Analyst,Senior,120000.0
+2023,Data Visualization Engineer,Senior,122975.0
+2023,Data Visualization Specialist,Junior,91050.0
+2023,Data Visualization Specialist,Mid-level,121850.0
+2023,Data Visualization Specialist,Senior,122275.0
+2023,Decision Scientist,Mid-level,173350.0
+2023,Decision Scientist,Senior,156918.0
+2023,Deep Learning Engineer,Junior,135000.0
+2023,Deep Learning Engineer,Mid-level,125000.0
+2023,Deep Learning Engineer,Senior,229061.0
+2023,Deep Learning Researcher,Senior,124163.0
+2023,Director of Data Science,Executive,212912.0
+2023,Director of Data Science,Mid-level,204500.0
+2023,Director of Data Science,Senior,125948.0
+2023,ETL Developer,Senior,116094.0
+2023,ETL Engineer,Mid-level,72286.0
+2023,Finance Data Analyst,Junior,40000.0
+2023,Financial Data Analyst,Junior,56500.0
+2023,Financial Data Analyst,Mid-level,130000.0
+2023,Head of Data,Executive,191225.0
+2023,Head of Data,Senior,186859.0
+2023,Head of Data Science,Executive,193828.0
+2023,Head of Data Science,Mid-level,60805.0
+2023,Head of Machine Learning,Executive,188000.0
+2023,Insight Analyst,Mid-level,46340.0
+2023,Lead Data Analyst,Mid-level,43120.0
+2023,Lead Data Scientist,Senior,36000.0
+2023,Lead Machine Learning Engineer,Senior,115000.0
+2023,ML Engineer,Junior,142000.0
+2023,ML Engineer,Mid-level,146500.0
+2023,ML Engineer,Senior,213167.0
+2023,MLOps Engineer,Junior,95650.0
+2023,MLOps Engineer,Mid-level,104934.0
+2023,MLOps Engineer,Senior,182000.0
+2023,Machine Learning Engineer,Executive,190950.0
+2023,Machine Learning Engineer,Junior,108373.0
+2023,Machine Learning Engineer,Mid-level,147195.0
+2023,Machine Learning Engineer,Senior,189797.0
+2023,Machine Learning Infrastructure Engineer,Mid-level,188760.0
+2023,Machine Learning Infrastructure Engineer,Senior,167952.0
+2023,Machine Learning Manager,Senior,129562.0
+2023,Machine Learning Modeler,Senior,173350.0
+2023,Machine Learning Operations Engineer,Senior,120000.0
+2023,Machine Learning Research Engineer,Mid-level,81912.0
+2023,Machine Learning Researcher,Mid-level,164620.0
+2023,Machine Learning Researcher,Senior,136343.0
+2023,Machine Learning Scientist,Mid-level,182500.0
+2023,Machine Learning Scientist,Senior,184810.0
+2023,Machine Learning Software Engineer,Mid-level,105351.0
+2023,Machine Learning Software Engineer,Senior,200500.0
+2023,Machine Learning Specialist,Mid-level,55000.0
+2023,Marketing Data Scientist,Senior,90000.0
+2023,NLP Engineer,Executive,175000.0
+2023,NLP Engineer,Mid-level,32834.0
+2023,NLP Engineer,Senior,146284.0
+2023,Power BI Developer,Mid-level,64781.0
+2023,Principal Data Engineer,Senior,91773.0
+2023,Principal Data Scientist,Senior,147125.0
+2023,Principal Machine Learning Engineer,Senior,99145.0
+2023,Product Data Analyst,Junior,83200.0
+2023,Product Data Analyst,Mid-level,16417.0
+2023,Product Data Analyst,Senior,57000.0
+2023,Prompt Engineer,Mid-level,60462.0
+2023,Prompt Engineer,Senior,166500.0
+2023,Research Analyst,Junior,73432.0
+2023,Research Analyst,Mid-level,88857.0
+2023,Research Analyst,Senior,114483.0
+2023,Research Engineer,Junior,115507.0
+2023,Research Engineer,Mid-level,145414.0
+2023,Research Engineer,Senior,188073.0
+2023,Research Scientist,Executive,202500.0
+2023,Research Scientist,Junior,160589.0
+2023,Research Scientist,Mid-level,172008.0
+2023,Research Scientist,Senior,183925.0
+2023,Software Data Engineer,Mid-level,74883.0
+2023,Software Data Engineer,Senior,130000.0
+2023,Staff Data Analyst,Mid-level,179998.0
+2024,AI Architect,Senior,206504.0
+2024,AI Developer,Mid-level,33333.0
+2024,AI Engineer,Executive,184560.0
+2024,AI Engineer,Junior,44444.0
+2024,AI Engineer,Mid-level,137631.0
+2024,AI Engineer,Senior,177207.0
+2024,AI Product Manager,Mid-level,152650.0
+2024,AI Programmer,Mid-level,30000.0
+2024,AI Research Engineer,Mid-level,131666.0
+2024,AI Research Scientist,Junior,88888.0
+2024,AI Research Scientist,Senior,150000.0
+2024,AI Scientist,Senior,175000.0
+2024,AI Software Engineer,Senior,174100.0
+2024,Admin & Data Analyst,Mid-level,42222.0
+2024,Analytics Engineer,Junior,110200.0
+2024,Analytics Engineer,Mid-level,138496.0
+2024,Analytics Engineer,Senior,154473.0
+2024,Applied Data Scientist,Junior,30000.0
+2024,Applied Research Scientist,Senior,66666.0
+2024,Applied Scientist,Junior,112815.0
+2024,Applied Scientist,Mid-level,194550.0
+2024,Applied Scientist,Senior,210936.0
+2024,BI Analyst,Junior,101100.0
+2024,BI Analyst,Mid-level,77500.0
+2024,BI Analyst,Senior,108000.0
+2024,BI Data Analyst,Mid-level,50000.0
+2024,BI Data Analyst,Senior,66666.0
+2024,BI Developer,Executive,167250.0
+2024,BI Developer,Mid-level,100352.0
+2024,BI Developer,Senior,81460.0
+2024,Big Data Developer,Mid-level,117000.0
+2024,Big Data Engineer,Junior,17600.0
+2024,Big Data Engineer,Mid-level,27611.0
+2024,Business Intelligence,Executive,197738.0
+2024,Business Intelligence,Junior,124250.0
+2024,Business Intelligence,Mid-level,139077.0
+2024,Business Intelligence,Senior,148662.0
+2024,Business Intelligence Analyst,Executive,155000.0
+2024,Business Intelligence Analyst,Junior,86581.0
+2024,Business Intelligence Analyst,Mid-level,124040.0
+2024,Business Intelligence Analyst,Senior,104825.0
+2024,Business Intelligence Developer,Executive,147500.0
+2024,Business Intelligence Developer,Mid-level,83576.0
+2024,Business Intelligence Developer,Senior,108107.0
+2024,Business Intelligence Engineer,Executive,108000.0
+2024,Business Intelligence Engineer,Mid-level,130816.0
+2024,Business Intelligence Engineer,Senior,123040.0
+2024,Business Intelligence Lead,Senior,143525.0
+2024,Business Intelligence Manager,Mid-level,156100.0
+2024,Business Intelligence Manager,Senior,94375.0
+2024,CRM Data Analyst,Senior,40000.0
+2024,Cloud Database Engineer,Mid-level,130781.0
+2024,Cloud Database Engineer,Senior,136438.0
+2024,Computational Biologist,Senior,190384.0
+2024,Computer Vision Engineer,Senior,205750.0
+2024,Data Analyst,Executive,109906.0
+2024,Data Analyst,Junior,90909.0
+2024,Data Analyst,Mid-level,102611.0
+2024,Data Analyst,Senior,126072.0
+2024,Data Analyst Lead,Mid-level,125000.0
+2024,Data Analytics Associate,Senior,91000.0
+2024,Data Analytics Consultant,Mid-level,88421.0
+2024,Data Analytics Lead,Senior,169114.0
+2024,Data Analytics Manager,Junior,27000.0
+2024,Data Analytics Manager,Mid-level,118019.0
+2024,Data Analytics Specialist,Junior,61450.0
+2024,Data Analytics Specialist,Senior,128294.0
+2024,Data Architect,Executive,195000.0
+2024,Data Architect,Mid-level,47286.0
+2024,Data Architect,Senior,163284.0
+2024,Data Developer,Junior,60000.0
+2024,Data Developer,Mid-level,94833.0
+2024,Data Developer,Senior,111214.0
+2024,Data Engineer,Executive,206799.0
+2024,Data Engineer,Junior,103773.0
+2024,Data Engineer,Mid-level,122133.0
+2024,Data Engineer,Senior,161109.0
+2024,Data Infrastructure Engineer,Mid-level,200000.0
+2024,Data Infrastructure Engineer,Senior,157910.0
+2024,Data Integration Developer,Senior,140581.0
+2024,Data Integration Engineer,Junior,125000.0
+2024,Data Integration Engineer,Mid-level,117371.0
+2024,Data Integration Engineer,Senior,124000.0
+2024,Data Integration Specialist,Mid-level,102750.0
+2024,Data Lead,Senior,107194.0
+2024,Data Management Analyst,Junior,86500.0
+2024,Data Management Analyst,Mid-level,100492.0
+2024,Data Management Consultant,Senior,92500.0
+2024,Data Management Specialist,Mid-level,75415.0
+2024,Data Management Specialist,Senior,158450.0
+2024,Data Manager,Mid-level,88387.0
+2024,Data Manager,Senior,115751.0
+2024,Data Modeler,Mid-level,125533.0
+2024,Data Modeler,Senior,121850.0
+2024,Data Operations Analyst,Junior,84357.0
+2024,Data Operations Analyst,Mid-level,90500.0
+2024,Data Operations Analyst,Senior,130000.0
+2024,Data Operations Associate,Junior,61688.0
+2024,Data Operations Associate,Mid-level,61110.0
+2024,Data Operations Specialist,Mid-level,110250.0
+2024,Data Operations Specialist,Senior,108605.0
+2024,Data Pipeline Engineer,Senior,172500.0
+2024,Data Product Manager,Mid-level,149824.0
+2024,Data Product Manager,Senior,176725.0
+2024,Data Product Owner,Mid-level,223260.0
+2024,Data Quality Analyst,Junior,71750.0
+2024,Data Quality Analyst,Senior,78125.0
+2024,Data Quality Engineer,Senior,107500.0
+2024,Data Reporting Analyst,Junior,70250.0
+2024,Data Science,Executive,199603.0
+2024,Data Science,Junior,77283.0
+2024,Data Science,Mid-level,138114.0
+2024,Data Science,Senior,179119.0
+2024,Data Science Analyst,Junior,101000.0
+2024,Data Science Consultant,Mid-level,115000.0
+2024,Data Science Consultant,Senior,110000.0
+2024,Data Science Director,Executive,169555.0
+2024,Data Science Engineer,Executive,140000.0
+2024,Data Science Engineer,Mid-level,190000.0
+2024,Data Science Engineer,Senior,126667.0
+2024,Data Science Lead,Senior,152500.0
+2024,Data Science Manager,Mid-level,185921.0
+2024,Data Science Manager,Senior,105000.0
+2024,Data Science Practitioner,Mid-level,115600.0
+2024,Data Scientist,Executive,165500.0
+2024,Data Scientist,Junior,94612.0
+2024,Data Scientist,Mid-level,132750.0
+2024,Data Scientist,Senior,158348.0
+2024,Data Specialist,Junior,61688.0
+2024,Data Specialist,Mid-level,77991.0
+2024,Data Specialist,Senior,175900.0
+2024,Data Strategist,Mid-level,96100.0
+2024,Data Visualization Specialist,Mid-level,127050.0
+2024,Director of Data Science,Executive,202500.0
+2024,ETL Developer,Mid-level,121850.0
+2024,ETL Developer,Senior,76400.0
+2024,ETL Engineer,Executive,150000.0
+2024,Encounter Data Management Professional,Mid-level,56650.0
+2024,Head of Data,Executive,222750.0
+2024,Head of Machine Learning,Executive,245000.0
+2024,Insight Analyst,Junior,45000.0
+2024,Lead Data Analyst,Mid-level,39615.0
+2024,Lead Machine Learning Engineer,Senior,77777.0
+2024,ML Engineer,Executive,210950.0
+2024,ML Engineer,Junior,27000.0
+2024,ML Engineer,Mid-level,150924.0
+2024,ML Engineer,Senior,188005.0
+2024,ML Ops Engineer,Mid-level,156400.0
+2024,MLOps Engineer,Mid-level,175675.0
+2024,MLOps Engineer,Senior,153200.0
+2024,Machine Learning Engineer,Executive,226039.0
+2024,Machine Learning Engineer,Junior,135912.0
+2024,Machine Learning Engineer,Mid-level,155673.0
+2024,Machine Learning Engineer,Senior,193029.0
+2024,Machine Learning Infrastructure Engineer,Senior,240000.0
+2024,Machine Learning Operations Engineer,Junior,150000.0
+2024,Machine Learning Operations Engineer,Mid-level,140000.0
+2024,Machine Learning Research Engineer,Junior,80769.0
+2024,Machine Learning Researcher,Mid-level,180900.0
+2024,Machine Learning Researcher,Senior,209000.0
+2024,Machine Learning Scientist,Mid-level,159500.0
+2024,Machine Learning Scientist,Senior,176520.0
+2024,Managing Director Data Science,Executive,260000.0
+2024,Prompt Engineer,Mid-level,214190.0
+2024,Prompt Engineer,Senior,186196.0
+2024,Quantitative Research Analyst,Junior,51000.0
+2024,Research Analyst,Junior,120774.0
+2024,Research Analyst,Senior,135908.0
+2024,Research Engineer,Junior,153325.0
+2024,Research Engineer,Mid-level,140325.0
+2024,Research Engineer,Senior,171687.0
+2024,Research Scientist,Junior,222423.0
+2024,Research Scientist,Mid-level,156437.0
+2024,Research Scientist,Senior,187382.0
+2024,Robotics Engineer,Mid-level,80000.0
+2024,Robotics Engineer,Senior,144500.0
+2024,Robotics Software Engineer,Mid-level,175750.0
+2024,Robotics Software Engineer,Senior,217500.0
