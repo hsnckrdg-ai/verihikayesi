@@ -18,13 +18,21 @@ const ANNOT_COLOR = "#991B1B"; // Uyarı/Not (Koyu Kırmızı)
 
 const formatTR = (value: number) => value.toLocaleString('tr-TR');
 
+// Unvanları eksenlere sığdırmak için kısaltma fonksiyonu
+const formatKisaUnvan = (val: string) => {
+  if (val === "Machine Learning Engineer") return "ML Eng.";
+  if (val === "Data Scientist") return "Data Sci.";
+  if (val === "Data Engineer") return "Data Eng.";
+  return val;
+};
+
 export default function VeriHikayesi() {
   const [aktifGrafik, setAktifGrafik] = useState(0);
 
   const [kesifYil, setKesifYil] = useState("2024");
   const [kesifSeviye, setKesifSeviye] = useState("Senior");
 
-  // Mobilde tetiklenmenin (scroll algılamanın) daha kolay olması için threshold %40'a çekildi
+  // Mobilde tetiklenmenin (scroll algılamanın) daha kolay olması için threshold %40'ta
   const { ref: ref0, inView: inView0 } = useInView({ threshold: 0.4 });
   const { ref: ref1, inView: inView1 } = useInView({ threshold: 0.4 });
   const { ref: ref2, inView: inView2 } = useInView({ threshold: 0.4 });
@@ -88,14 +96,15 @@ export default function VeriHikayesi() {
       return (
         <div className="w-full h-full flex flex-col relative min-h-[250px]">
           <ResponsiveContainer width="100%" height="100%">
-            <LineChart data={islenmisMakasVerisi} margin={{ top: 20, right: 30, left: 10, bottom: 20 }}>
+            <LineChart data={islenmisMakasVerisi} margin={{ top: 20, right: 40, left: 10, bottom: 20 }}>
               <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="work_year" label={{ value: "Yıl", position: "insideBottom", offset: -10 }} tick={{fontSize: 12}} />
-              <YAxis tickFormatter={formatTR} domain={[0, 200000]} width={70} tick={{fontSize: 12}} />
+              {/* Padding ile son noktanın kesilmesi önlendi */}
+              <XAxis dataKey="work_year" padding={{ left: 10, right: 10 }} label={{ value: "Yıl", position: "insideBottom", offset: -10 }} tick={{fontSize: 12}} />
+              <YAxis tickFormatter={formatTR} domain={[0, 200000]} width={65} tick={{fontSize: 12}} />
               <Tooltip formatter={(value: number) => [formatTR(value), "Maaş (USD)"]} />
               <Legend verticalAlign="top" height={36} wrapperStyle={{ fontWeight: 'bold', fontSize: '12px' }}/>
-              <Line type="linear" dataKey="Senior" stroke={FOCUS_COLOR} strokeWidth={3} dot={{ strokeWidth: 2 }} />
-              <Line type="linear" dataKey="Junior" stroke={BASE_COLOR} strokeWidth={3} dot={{ strokeWidth: 2 }} />
+              <Line type="linear" dataKey="Senior" stroke={FOCUS_COLOR} strokeWidth={3} dot={{ strokeWidth: 2 }} isAnimationActive={false} />
+              <Line type="linear" dataKey="Junior" stroke={BASE_COLOR} strokeWidth={3} dot={{ strokeWidth: 2 }} isAnimationActive={false} />
               
               {aktifGrafik === 2 && (
                 <ReferenceArea x1={2022} x2={2024} fill="#FCA5A5" fillOpacity={0.3} />
@@ -127,7 +136,7 @@ export default function VeriHikayesi() {
             <BarChart data={islenmisCografyaVerisi} margin={{ top: 30, right: 20, left: 10, bottom: 20 }}>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="work_year" label={{ value: "Yıl", position: "insideBottom", offset: -10 }} tick={{fontSize: 12}} />
-              <YAxis tickFormatter={formatTR} domain={[0, 200000]} width={70} tick={{fontSize: 12}} />
+              <YAxis tickFormatter={formatTR} domain={[0, 200000]} width={65} tick={{fontSize: 12}} />
               <Tooltip formatter={(value: number) => [formatTR(value), "Maaş (USD)"]} />
               <Legend verticalAlign="top" height={36} wrapperStyle={{ fontSize: '12px' }}/>
               <Bar dataKey="ABD" fill={aktifGrafik === 4 ? FOCUS_COLOR : BASE_COLOR} name="ABD" />
@@ -149,8 +158,9 @@ export default function VeriHikayesi() {
           <ResponsiveContainer width="100%" height="100%">
             <ScatterChart margin={{ top: 30, right: 30, left: 10, bottom: 20 }}>
               <CartesianGrid strokeDasharray="3 3" />
-              <XAxis type="category" dataKey="job_title" name="Unvan" label={{ value: "Roller", position: "insideBottom", offset: -15 }} tick={{fontSize: 10}} />
-              <YAxis type="number" dataKey="salary_in_usd" name="Maaş" tickFormatter={formatTR} domain={[80000, 200000]} width={70} tick={{fontSize: 12}} />
+              {/* tickFormatter ile uzun metinler kısaltıldı, X ekseni padding eklendi */}
+              <XAxis type="category" dataKey="job_title" name="Unvan" tickFormatter={formatKisaUnvan} padding={{ left: 20, right: 20 }} label={{ value: "Roller", position: "insideBottom", offset: -15 }} tick={{fontSize: 11}} />
+              <YAxis type="number" dataKey="salary_in_usd" name="Maaş" tickFormatter={formatTR} domain={[80000, 200000]} width={65} tick={{fontSize: 12}} />
               <ZAxis range={[100, 400]} />
               <Tooltip cursor={{ strokeDasharray: '3 3' }} formatter={(value: number) => formatTR(value)} />
               
@@ -177,7 +187,7 @@ export default function VeriHikayesi() {
             <BarChart data={maasVerisi.bulgu4_calisma_sekli} margin={{ top: 30, right: 20, left: 10, bottom: 20 }}>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="calisma_sekli" label={{ value: "Model", position: "insideBottom", offset: -10 }} tick={{fontSize: 12}} />
-              <YAxis tickFormatter={formatTR} domain={[0, 200000]} width={70} tick={{fontSize: 12}} />
+              <YAxis tickFormatter={formatTR} domain={[0, 200000]} width={65} tick={{fontSize: 12}} />
               <Tooltip formatter={(value: number) => [formatTR(value), "Maaş (USD)"]} />
               <Legend verticalAlign="top" height={36} wrapperStyle={{ fontSize: '12px' }}/>
               <Bar dataKey="salary_in_usd" name="Medyan Maaş (USD)">
@@ -203,11 +213,6 @@ export default function VeriHikayesi() {
   return (
     <div className="flex flex-col w-full bg-slate-50 text-slate-900 font-sans">
       
-      {/* 
-        KRİTİK MOBİL GÜNCELLEMESİ: flex-col-reverse
-        Mobilde Grafik üstte (sticky) kalır, Metinler alttan kayarak gelir.
-        Masaüstünde yan yana (md:flex-row) çalışmaya devam eder.
-      */}
       <div className="flex flex-col-reverse md:flex-row w-full relative">
         
         {/* SOL SÜTUN: METİNLER (Mobilde aşağıda akar, MD'de solda) */}
@@ -286,17 +291,18 @@ export default function VeriHikayesi() {
 
         </div>
 
-        {/* SAĞ SÜTUN: SABİT GRAFİK (Mobilde üstte %45 alan kaplar ve yapışır) */}
-        <div className="w-full md:w-1/2 h-[45vh] md:h-screen sticky top-0 flex flex-col items-center justify-center bg-white border-b md:border-b-0 md:border-l border-slate-200 shadow-xl z-20">
+        {/* SAĞ SÜTUN: SABİT GRAFİK (Mobilde yüksekliği 40vh'ye çekildi) */}
+        <div className="w-full md:w-1/2 h-[40vh] md:h-screen sticky top-0 flex flex-col items-center justify-center bg-white border-b md:border-b-0 md:border-l border-slate-200 shadow-xl z-20">
           <div className="w-full h-full p-2 md:p-8 flex flex-col justify-center">
             {renderGrafik()}
-            <div className="w-full text-right pr-2 md:pr-4 flex justify-between items-center text-[10px] md:text-xs text-slate-400 mt-2">
+            {/* Dipnot mobilde flex-col (alt alta), masaüstünde flex-row (yan yana) ve font 11px yapıldı */}
+            <div className="w-full pr-2 md:pr-4 flex flex-col md:flex-row justify-end md:justify-between items-end md:items-center text-[11px] md:text-xs text-slate-400 mt-2 md:mt-4 gap-1 md:gap-0">
               {gosterDipnot ? (
-                <span className="italic">* 2020-2021 için kayıt sayısı düşük olduğundan güvenilirlik sınırlıdır.</span>
+                <span className="italic text-right md:text-left">* 2020-2021 için kayıt sayısı düşük olduğundan güvenilirlik sınırlıdır.</span>
               ) : (
-                <span></span>
+                <span className="hidden md:inline"></span>
               )}
-              <span className="font-semibold ml-2 min-w-max">Kaynak: Kaggle 2024</span>
+              <span className="font-semibold min-w-max">Kaynak: Kaggle 2024</span>
             </div>
           </div>
         </div>
@@ -387,7 +393,7 @@ export default function VeriHikayesi() {
               <strong className="text-slate-900">Temizleme:</strong> Ham veride 14.838 satır vardı. Tamamen tekrar eden 5.748 satır silindi (9.090 satır kaldı). Maaşta IQR yöntemiyle belirlenen 166 aşırı uç değer çıkarıldı; analizde 8.924 satır kullanıldı. Maaşlar sağa çarpık olduğu için ortalama yerine medyan kullanıldı. Hibrit çalışanlar kayıt sayısı az olduğu için Bulgu 4'e dahil edilmedi. 2020 (n = 72) ve 2021 (n = 213) yıllarındaki sonuçlar sınırlı güvenilirliktedir.
             </p>
             <p className="text-base md:text-lg leading-relaxed text-slate-800 mb-4 md:mb-6">
-              <strong className="text-slate-900">Araçlar:</strong> Python (pandas, Jupyter) ile analiz; Next.js, React ve Recharts ile site. Notebook ve kod: <a href="https://github.com/hsnckrdg-ai" target="_blank" className="text-indigo-600 hover:text-indigo-800 underline">GitHub Bağlantısı</a>.
+              <strong className="text-slate-900">Araçlar:</strong> Python (pandas, Jupyter) ile analiz; Next.js, React ve Recharts ile site. Notebook ve kod: <a href="https://github.com/hsnckrdg-ai/verihikayesi" target="_blank" className="text-indigo-600 hover:text-indigo-800 underline">GitHub Bağlantısı</a>.
             </p>
             <p className="text-base md:text-lg leading-relaxed text-slate-800">
               <strong className="text-slate-900">Yapay Zekâ Beyanı:</strong> Geliştirme sürecinde yapay zeka modelinden (Claude/Gemini) kod yazımı, hata ayıklama ve metin taslağı oluşturma desteği aldım. Veri temizleme adımları, analiz kararları ve hikaye metninin son hali tamamen tarafımca hazırlanmıştır.
