@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Veri Bilimi Maaşlarının Gizli Matematiği",
     description: "Kıdem mi, coğrafya mı, yoksa unvan mı daha değerli? 2020-2024 veri bilimi maaş trendleri üzerinden interaktif bir hikaye.",
-    url: "https://veri-hikayesi.vercel.app", // BURAYA VERCEL LİNKİNİ YAZACAKSIN
+    url: "https://hsnckrdg-data-salaries.vercel.app",
     siteName: "Hasan Can Karadağ Portfolyo",
     images: [
       {
-        url: "/og-image.jpg", // public klasörüne 1200x627 bir resim koyman lazım
+        url: "/og-image.jpg", 
         width: 1200,
         height: 627,
       },

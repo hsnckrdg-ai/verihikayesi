@@ -240,7 +240,7 @@ export default function VeriHikayesi() {
           <section ref={ref2} className="min-h-[60vh] md:min-h-screen flex flex-col justify-center max-w-xl py-10 md:py-0">
             <h2 className="text-2xl md:text-3xl font-bold mb-4 text-indigo-700 leading-snug">Dolar farkı 85 binden 66 bine indi</h2>
             <p className="text-base md:text-lg leading-relaxed text-slate-700">
-              Kıdemli ve Başlangıç seviyeleri arasındaki net maaş farkı, oransal daralmaya paralel olarak miktar bazında da düşüş gösterdi.
+              Kıdemli ve Başlangıç seviyeleri arasındaki maaş farkı, oransal daralmaya paralel olarak miktar bazında da düşüş gösterdi.
             </p>
           </section>
 
