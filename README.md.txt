@@ -3,7 +3,7 @@
 ## Proje Özeti
 Bu proje, "Data Science Salaries 2024" veri setini kullanarak veri bilimi ekosistemindeki maaş trendlerini interaktif bir veri hikayesi (data storytelling) formatında sunmayı amaçlamaktadır. Analiz sonucunda maaşları belirleyen en güçlü faktörlerin kıdem ve coğrafi konum olduğu; çalışma şeklinin (uzaktan/ofis) belirgin bir farklılık yaratmadığı tespit edilmiştir.
 
-**Canlı Site:** [Yayına alınca eklenecek]
+**Canlı Site:** https://hsnckrdg-data-salaries.vercel.app/
 
 ## Veri Kaynağı
 - **Kaynak:** [Kaggle - Data Science Salaries 2023 EDA & Prediction](https://www.kaggle.com/code/lusfernandotorres/data-science-salaries-2023-eda-prediction/input) (ai-jobs.net verisi)
